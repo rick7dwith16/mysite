@@ -38,7 +38,7 @@ const ConfirmAge: React.FC = () => {
           />
         </div>
 
-        <h1 className="font-semibold text-gray-900 text-lg mb-2">
+        <h1 className={`${roboto.className} text-center font-semibold text-gray-900 text-lg mb-4`}>
           Olá, {name}!
         </h1>
         <p className="text-gray-500 text-xs leading-tight mb-6">

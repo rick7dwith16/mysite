@@ -4,10 +4,7 @@ import CreatorHeader from '../components/CreatorHeader'; // depende da estrutura
 import SubscriptionPlans from '../components/SubscriptionPlans'; // ajuste o caminho conforme necessário
 import LockedPost from '../components/LockedPost';
 import { Plan } from '@types';
-import { Roboto } from "next/font/google";
-const roboto = Roboto({
-  subsets: ['latin']
-});
+
 const plans: Plan[] = [
   {
     id: '1',

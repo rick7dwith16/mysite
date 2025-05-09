@@ -4,9 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Roboto } from "next/font/google";
-const roboto = Roboto({
-  subsets: ['latin']
-});
+
 
 export default function LandingPage() {
   const router = useRouter();
