@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { Roboto } from "next/font/google";
+
 
 
 export default function LandingPage() {

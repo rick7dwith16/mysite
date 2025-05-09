@@ -2,9 +2,6 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
-const inter = Roboto({ subsets: ['latin'] });
-
-
 export const metadata: Metadata = {
   title: 'Privacy',
   description: 'Confirme sua idade para acessar o conteúdo.',
